@@ -37,7 +37,7 @@ box-shadow: 0 10 10 black;
     background-color: white;
     width: 100%;
     display: flex;
-    padding: 5px 5px;
+    padding: 2px 2px;
     justify-content: space-between;
 
     font-size: .2rem;
@@ -48,12 +48,12 @@ box-shadow: 0 10 10 black;
 .task{
     flex: 4;
     padding: 5px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 10px;
 }
  .list button{
     margin: 10px;
-    flex: .4;
+    flex: .5;
     background-color: white;
     border-radius: 10px;
 }
