@@ -42,7 +42,15 @@ addBtn.addEventListener('click', function () {
   input.value = '';
 
   checkBtn.addEventListener('click',function(){
-   checkBtn.parentElement.style.textDecoration="underline";
+   if (checkBtn.parentElement.style.textDecoration==="line-through"){
+    checkBtn.innerHTML = '<i class="fa fa-check"></i>';
+    checkBtn.parentElement.style.textDecoration="none";
+   }
+   else{
+    checkBtn.innerHTML = '<i class="fa fa-times" class = "check"></i>';
+    checkBtn.parentElement.style.textDecoration="line-through";
+    checkBtn.parentElement.style.textDecorationSkipInk="auto";
+   }
   });
   
 
